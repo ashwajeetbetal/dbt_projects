@@ -1,0 +1,12 @@
+sources:
+  - name: raw
+    database: DBT_PROJ_RAW
+    schema: ECOM_RAW
+
+    tables:
+      - name: customers
+        identifier: customers
+      - name: orders
+        identifier: orders
+      - name: order_items
+        identifier: order_items
